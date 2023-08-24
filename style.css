@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300;700&family=Roboto:ital,wght@0,100;1,100&family=Titillium+Web:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+p{
+    font-size: 10px;
+    color: white;
+    line-height: 16px;
+}
+.btn{
+    padding: 12px 28px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
+    color: black;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid red;
+    transition: ease 0.5s all;
+    text-decoration: none;
+    
+}
+.btn:hover{
+    color: white;
+    background: black;
+    border-color: white;
+}
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12%;
+ }
+ .container{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(/sekiller/bg.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+ }
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: ease 0.5s all;
+
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar ul li a:hover{
+    color: black;
+}
+h1{
+    color: white;
+    font-size: 100px;
+}
+.drc{
+    font-size: 16px;
+}
+.col{
+    flex-basis: 50%;
+}
+.row{
+    display: flex;
+    column-gap: 10px;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+.card{
+    width:200px ;
+    height:230px ;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    border: 1px solid red;
+    position: relative;
+    transition: ease 0.5s all;
+    margin: 10px 15px;
+}
+.card .card-heads{
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    border-radius: 6px;
+    padding: 6px;
+}
+.card .card-button{
+    position: absolute;
+    bottom: 26px;
+}
+.card:hover{
+    transform: translateY(-10px);
+    border-color: white;
+}
+.cards{
+    max-width: 500px;
+    margin: auto;
+}
+.card.card-1{
+background-image: url(/sekiller/pic-1.png);
+}
+.card.card-2{
+    background-image: url(/sekiller/pic-2.png);
+    }
+    .card.card-3{
+        background-image: url(/sekiller/pic-3.png);
+        }
+        .card.card-4{
+            background-image: url(/sekiller/pic-4.png);
+            }
